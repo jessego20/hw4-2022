@@ -191,7 +191,7 @@ div:first-child{
   /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block{
     max-height: 250px;
-    overflow: visible;
+    overflow: auto;
   }
 }
 
