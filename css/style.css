@@ -137,6 +137,7 @@ div:first-child{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
  four rows in the grid. */
@@ -173,7 +174,7 @@ div:first-child{
 /* Add your media query here */
 @media screen and (min-width: 800px) {
   /* Step 9: Write the selector/rule property to style the nav element */
-  nav ul{
+  nav{
     text-align: right;
     padding: 30px 0 30px 0;
   }
